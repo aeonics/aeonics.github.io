@@ -1,0 +1,291 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+.hero {
+    height: 350px;
+    background-color:white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-image
+{
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color:#1b2127;
+    margin: 0;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.portafolio {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid grey;
+    border-radius: 10px 15px 5px 20px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-course, .project-date, .project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-imageContainer {
+    width: 500px;
+}
+
+.header {
+    background-color: #010101;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    padding: 0 10px;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.footer {
+    color: white;
+    background-color: #010101;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
+.event {
+    
+    margin: 10px;
+    width: 620px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff;
+}
+
+.event-list-title
+{
+    margin-left: 20px;
+}
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-img {
+    width: 620px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.event-detail
+{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description
+{
+    text-align: left;
+}
+
+.event-url
+{
+    border: 1px solid #026fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #026fff;
+    border-radius: 5px;
+}
+
+.contact
+{
+    background-color:gray;
+    color: white;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.contact h3
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.social
+{
+    
+}
+
+.social-link
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter
+{
+    background-image: url('../images/twitter.logo.png');
+    
+    
+}
+.social-link.wordpress
+{
+    background-image: url('../images/wordpress-logo.png');
+    
+    
+}
+.social-link.github
+{
+    background-image: url('../images/github-logo.png');
+    
+}
+.social-link.linkedin
+{
+    background-image: url('../images/ln-logo.png');
+    }
+
+    .form-email input
+    {
+        border-color: gray;
+        padding: 10px 20px 10px 25px;;
+        background-image: url('../images/emailme.png');
+        background-size: 25px 25px;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 5px;
+        border-radius: 5px;
+        border-style: solid;
+        margin-left: 15px;
+    }
+
+    .form-email button{
+        display: block;
+        padding: 10px 0;
+        background: transparent;
+        color:#ff0000;
+        width: 100px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 15px;
+        
+    }
+
+    .form-email h3{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .container{
+        
+        width: 1280px;
+        margin: 0 auto;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        height: inherit;
+        flex-wrap: inherit;
+        box-shadow: #1b2127;
+    }
