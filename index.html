@@ -1,54 +1,239 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Luis R. Alvarez H.</title>
-        <link rel="icon" type="image/png" href="images/favicon.png">
-    </head>
-    <body>
-        <header>
-            <figure>
-                <img width="326px" src="images/logo.png" alt="Logo.jpg">Logo
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio Luis Rodrigo Alvarez</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <img src="images/logo.png" alt="Logo.jpg" height="100">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
-                    <li><a href="#" alt=""> Portafolio</a></li>
-                    <li>Experiencia</li>
-                    <li>Trabajemos Juntos</li>
+                    <li><a class="link" href="#SobreMi"> Sobre Mí</a></li>
+                    <li><a class="link" href="#experiencia"> Experiencia</a></li>
+                    <li> <a class="link" href="#contacto"> Contacto</a> </li>
                 </ol>
             </nav>
-        </header>
-        <section>
-            <h1>Lorem <strong>dolor sit amet </strong> consectetur adipisicing elit. 
-            <br> Lorem <strong>dolor sit amet</strong>  consectetur <br>adipisicing elit.</h1>
-            <img src="images/hero.jpg" alt="Imagen Principal" width="500px" height="300px"> Imagen de Portada
-        </section>
-        <section>
-                <h2>Portafolio</h2>
-            <article>
-                <h3>Titulos 3</h3>
-                <h6>Subtitulo nv/6</h6>
-                <p><small><strong>Fecha: </strong>DD/MM/AAAA</small> </p>
-                <p><small><strong>Para ver: </strong>www.dominio.com</small> </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatum atque omnis voluptatem, necessitatibus ut. Asperiores quasi quisquam ratione tempora dolore et commodi ipsum ex, hic dolor provident, reiciendis repudiandae.</p>
-                <p></p>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Bienvenido!! este es mi <strong> portafolio de algunos proyectos en los que he participado o bien en los que he trabajado, espero que crezca más  y pueda mostrar cosas aun mas maravillosas</strong>, aquí encontraras programación, diseño 3D, videojuegos y un poco de fotografía.</h1>
+            <img class="hero-image" src="https://s3-us-west-1.amazonaws.com/capptu/bca688fa5ee7ea5262d0d19988f3ebef/54a00ec589ad5c2ec306bebf74ffc5e6.jpg" alt="Imagen Hero" width="450" height="300">
+        </div>
 
-            </article>
-        </section>
-        <section>
-            <h2>Mas de mi Experiencia</h2>
-            <article>
-                <figure>
-                    <img src="images/1st.jpg" alt="" width="500">
-                </figure>
-                <h3>Titulo de esta imagen</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, totam! Autem, minima dolor. Aspernatur fugiat, at veritatis error suscipit optio earum? Aperiam velit, nemo facilis voluptates labore possimus cumque exercitationem.</p>
-                <a href="#">Ver mas...</a>
-                <img src="images/2nd.jpg" alt="" width="500">
-            </article>
-        </section>
-        <section>Seccion Contacto</section>
+    </section>
+    <section id="SobreMi" class="portafolio">
+<div class="container">
+
+    <h2>Sobre Mí</h2>
+    <div class="project">
+        <article class="project-details">
+            <h3 class="project-title">Lic. en Ing En Desarrollo de Software</h3>
+            <h4 class="project-course">Universidad Abierta y a Distancia de México</h4>
+            <!-- <p class="project-date"><small><strong>Fecha: </strong>DD/MM/AAAA</small> </p> -->
+            <p class="project-url"><small><strong>Conoce más en:</strong> https://www.unadmexico.mx</small> </p>
+            <p class="project-description">Aunque toda mi vida he trabajo del lado de la Administración de Sistemas, siento gran inclinación por el desarrollo de software y videojuegos, puede ver mi trayectoria en mi <a href="https://www.linkedin.com/in/aeonicss/">Linkedin</a></p>
+        </article>
+        <figure class="project-imageContainer">
+            <img class="project-image" src="images/trayectoria.jpg" alt="" width="300">
+        </figure>
+    </div>
+</div>
+    </section>
+    <div class="container">
+
+        <h2 class="event-list-title">Conoce Algunos Proyectos</h2>
+    </div>
+        <section id="experiencia" class="event-list">
+            <div class="container">
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="https://static.platzi.com/media/porfilio/runner_e9cc3287-7e44-43c6-9dc5-0b36759faadc.png" alt="" width="500"> 
+                    </figure>
+                    <div class="event-detail">
         
-        <footer>Footer</footer>
-    </body>
+                        <h3 class="event-title">Juego en Unity tipo Runner</h3>
+                        <p class="event-description">Hice este juego, con ayuda de tutoriales, aun con muchos bugs, pero funcional, si quieres puedes bajara el codigo. </p>
+                        <a class="event-url" href="https://mega.nz/#!uAA1xQBK" target="_blank">Baja el codigo...</a>
+                       
+                    </div>
+                        </article>
+
+                        <article class="event">
+                            <figure class="event-imageContainer">
+                                <img class="event-img" src="images/debian-logo.jpg" alt="" width="500"> 
+                            </figure>
+                            <div class="event-detail">
+                
+                                <h3 class="event-title">Logo Debian 3D</h3>
+                                <p class="event-description">Hace ya algunos años que hice este logo, antes me hacia llamar <strong>Vempire.Nightmare</strong> lo hice en Blender 3D</p>
+                                <a class="event-url" href="images/debian-logo.jpg" target="_blank">Vista completa...</a>
+                               
+                            </div>
+                                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="images/Island_lowpoly.png" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">Mi Isla Low Poly</h3>
+                        <p class="event-description">Hecha en Blender 3D, no soy enviodioso, si quieres te paso el archivo fuente</p>
+                        <a class="event-url" href="images/Island_lowpoly.png" target="_blank">Vista completa...</a>
+                    </div>
+        
+                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="https://lh4.googleusercontent.com/RFLzLcVMqHt9iAYqbfAy4VNT6MTrrTfB6XQToue0U95QL1UZNlFIgg=w2400" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">La tierra en 3D</h3>
+                        <p class="event-description">Hecha en Blender 3D, me tomo un rato hacerla y con ayuda de varios tutoriales</p>
+                        <a class="event-url" href="https://lh4.googleusercontent.com/RFLzLcVMqHt9iAYqbfAy4VNT6MTrrTfB6XQToue0U95QL1UZNlFIgg=w2400" target="_blank">Vista completa...</a>
+                    </div>
+        
+                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="images/1.png" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">Hombre Gracioso</h3>
+                        <p class="event-description">Hecho en Blender 3D, es uno reciente, hay un twitt donde lo pongo hasta con un video</p>
+                        <a class="event-url" href="https://twitter.com/Aeonicss/status/1157559537941004288?s=20" target="_blank">Vista completa...</a>
+                    </div>
+        
+                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="images/Pozo1.png" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">Antiguo pozo 3D</h3>
+                        <p class="event-description">Hecho en Blender 3D, es uno reciente, me tomo unos dias</p>
+                        <a class="event-url" href="images/Pozo1.png" target="_blank">Vista completa...</a>
+                    </div>
+        
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="images/Avior.png" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">Sistema de Inventarios</h3>
+                        <p class="event-description">Hecho en HTML, CSS, PHP y MySQL, lo hice para un proyecto final, consistia en hacer un sistema que alguna empresa adoptara, se lo hice a una empresa llamada Avior <a href="https://avior.mx">https://avior.mx </a> </p>
+                        <a class="event-url" href="https://github.com/aeonics/SistemaInventarios" target="_blank">Código en GitHub...</a>
+                    </div>
+        
+                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="https://www.hostname.cl/uploads/2015/01/php1.jpg" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">Login Simple en PHP</h3>
+                        <p class="event-description">Como parte de algunos ejercicios hice este pequeño login en PHP</p>
+                        <a class="event-url" href="https://github.com/aeonics/LoginSimplePHP" target="_blank">Código en GitHub...</a>
+                    </div>
+        
+                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="https://miro.medium.com/max/3840/1*rrRcaZKZsjerUveQqTSx7A.png" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">Cursos en Platzi</h3>
+                        <p class="event-description">Trato siempre de seguir aprendiendo, y este es mi perfil en Platzi</p>
+                        <a class="event-url" href="https://platzi.com/@aeonics/" target="_blank">Mis certificados...</a>
+                    </div>
+        
+                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="https://s3-us-west-1.amazonaws.com/capptu/bca688fa5ee7ea5262d0d19988f3ebef/a972840912625cf89c9e0de7ccc678c7.jpg" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">Fotografía</h3>
+                        <p class="event-description">A veces me nace mi creatividad fotografiando, puedes ver algo de mi trabajo en capptu, ojo aun no publico todo</p>
+                        <a class="event-url" href="https://capptu.com/@Aeonics" target="_blank">Mis fotografías...</a>
+                    </div>
+        
+                </article>
+
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-img" src="images/wordpress_perfil.png" alt="" width="500">
+                    </figure>
+                    <div class="event-detail">
+        
+                        <h3 class="event-title">Mi Blog</h3>
+                        <p class="event-description">Tengo un blog, que actualizo cuando puedo con tutoriales, tips, cosas que me han servido, anecdotas, etc.</p>
+                        <a class="event-url" href="https://aeonicss.wordpress.com" target="_blank">Mi Blog...</a>
+                    </div>
+        
+                </article>
+
+                
+
+                
+                
+            </div>
+        </section>
+    <div class="container">
+
+        <section id="contacto" class="contact">
+            <!-- <form action="/suscripcion/" class="form-email"> -->
+                <h3>Contacto</h3>
+                
+                <!--<input type="datetime" placeholder="Dejame tu email">
+                <button>Enviar</button> -->
+                
+            </form>
+            <div class="social">
+                <p>Visita mis Redes Sociales</p>
+                <a href="https://twitter.com/@Aeonicss" class="social-link twitter"></a>
+                <a href="https://aeonicss.wordpress.com" class="social-link wordpress"></a>
+                <a href="https://github.com/aeonics class="social-link github"></a>
+                <a href="https://www.linkedin.com/in/aeonicss/" class="social-link linkedin"></a>
+            </div>
+        </section>
+        <footer class="footer">
+            <div>
+                <p>Luis R. Alvarez Herrera <img src="images/logo.png" alt="" width="80"></p>
+            </div>
+            <!-- <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">@link</a> </p>
+            </div> -->
+        </div>
+    </footer>
+
+</body>
+
 </html>
